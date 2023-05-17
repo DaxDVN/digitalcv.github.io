@@ -1,0 +1,69 @@
+@media screen and (min-width: 1024px) {
+  /* NAVIGATION BAR */
+  /* SET UP PROFILE IMAGE TO DISPLAY */
+  #nav-bar .profile-img {
+    width: 100px;
+    height: 120px;
+    background-image: url("../images/nguyenvandat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    border-radius: 50%;
+    border: 8px solid #f7f7f7;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .space {
+    display: block;
+    width: 20%;
+  }
+
+  /* ABOUT */
+  #about p,
+  #about b,
+  #about .info li {
+    font-size: 16px;
+  }
+
+  #personal-info {
+    padding-left: 48px;
+  }
+
+  /* JOB-INFO */
+  /* SET UP AREA FOR ELEMENT */
+  #job-info .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+    grid-template-areas:
+      "A B C"
+      "D E F"
+  }
+
+  #job-info .component {
+    align-self: normal;
+  }
+
+  /* PROJECT */
+  #project p {
+    font-size: 16px;
+  }
+
+  #project h5 {
+    padding-left: 24px;
+    font-size: 16px;
+  }
+
+  .details-desc {
+    height: 12rem;
+  }
+
+  .deatails--titles h4 {
+    font-size: 18px;
+  }
+
+  .author-details span {
+    font-size: 14px;
+  }
+}
